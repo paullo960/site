@@ -45,5 +45,6 @@ section.image{
 }
 
 section.image > p{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.541);
+    width: 400px;
 }
