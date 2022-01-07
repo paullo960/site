@@ -1,3 +1,49 @@
-h1{
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: lemonchiffon;
+}
+
+header{
+    background-color: black;
+    color: blanchedalmond;
     text-align: center;
+}
+
+header > h1{
+    padding: 50px;
+    font-size: 3em;
+}
+
+footer{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    padding-top: 50px;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: white;
+}
+
+section.image{
+    background-color: tomato;
+    color: white;    
+}
+
+section.image > p{
+    background-color: black;
 }
